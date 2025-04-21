@@ -1,0 +1,15 @@
+{
+  "name": "Docker in Docker",
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "20.10",
+      "enableNonRootDocker": "true",
+      "moby": "true"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  }
+}
